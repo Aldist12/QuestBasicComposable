@@ -72,7 +72,15 @@ fun LoginScreen() {
                 .size(250.dp)
         )
         Spacer(modifier = Modifier.height(16.dp))
-}
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.Black
+            )
+        )
+
+    }
 }
 @Preview(showBackground = true)
 @Composable
