@@ -19,8 +19,13 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             QuestBasicComposableTheme {
+                LoginScreen()
             }
         }
     }
 }
 
+@Composable
+fun LoginScreen() {
+
+}
