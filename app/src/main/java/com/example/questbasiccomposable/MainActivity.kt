@@ -79,7 +79,14 @@ fun LoginScreen() {
                 color = Color.Black
             )
         )
-
+        Text(
+            text = "Aldi Septiyanto",
+            style = TextStyle(
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+        )
     }
 }
 @Preview(showBackground = true)
