@@ -50,5 +50,12 @@ fun LoginScreen() {
                 color = Color.Black
             )
         )
+        Text(
+            text = "Ini adalah halaman login",
+            style = TextStyle(
+                fontSize = 16.sp,
+                color = Color.Gray
+            )
+        )
 }
 }
