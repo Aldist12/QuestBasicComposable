@@ -87,6 +87,13 @@ fun LoginScreen() {
                 color = Color.Red
             )
         )
+        Text(
+            text = "20210140002",
+            style = TextStyle(
+                fontSize = 28.sp,
+                color = Color.Black
+            )
+        )
     }
 }
 @Preview(showBackground = true)
