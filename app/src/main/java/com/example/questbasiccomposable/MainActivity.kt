@@ -94,6 +94,7 @@ fun LoginScreen() {
                 color = Color.Black
             )
         )
+        Spacer(modifier = Modifier.height(30.dp))
     }
 }
 @Preview(showBackground = true)
